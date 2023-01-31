@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #f7f7f9;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between; 
+    
+
+}
+
+.logo{
+    width: 175px;
+    height: 82px;
+    position: absolute;
+    left: 63px;
+    top: 19px;
+}
+
+
+
+
+nav{
+    position: absolute;
+    top: 19px;
+    left: 350px;
+}
+/*
+nav ul {
+    list-style-type: none;
+    display: flex;align-items: center;
+}
+
+nav ul a{
+    margin: 20px;
+    text-decoration: none;
+    color: #626270;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+    position: absolute;
+    top: 35px;
+    left: 936px;
+    width: 294px;
+}
+
+.btn a{
+    margin: 20px;
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+}
+
+
+.btn :hover{
+    border: solid rgb(113, 48, 218) 2px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    
+   
+}
+
+.bgrund-heder{
+    background-image: url("image/ta5tit\ header.jpg");
+    height: 600px;
+    background-size: cover;
+    
+    
+background-position: center;
+}
+
+.photogarphy{
+    width: 229px;
+    position: absolute;
+    top: -120px;
+    left: 554px;
+}
+
+
+.designer{
+    width: 229px;
+    position: absolute;
+    top: -62px;
+    left: 251px
+}
+
+.marketing{
+    width: 229px;
+    position: absolute;
+    top: 57px;
+    left: 528px;
+}
+
+
+.bgrund-heder h1{
+    color: #192059;
+    font-size: 50px;
+    position: absolute;
+    top: 152px;
+    left: 96px;
+}
+
+
+.bgrund-heder .jone{
+    color: #ffa62b;
+}
+
+.bgrund-heder .move{
+    color: #424289;
+}
+
+.bgrund-heder p{
+    color: #424289;
+    width: 600px;
+    position: absolute;
+    top: 301px;
+    left: 96px;
+}
+
+.btn-hder {
+    padding: 17px;
+    background-color: #ffa33c;
+    text-decoration: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 392px;
+    width: 140px;
+    height: 52px;
+    left: 96px;
+    color: wheat;
+}
+
+.btn-hder b{
+    position: absolute;
+    left: 24px;
+    width: 90px;
+    color: white;
+    top: 14px;
+}
+
+.video-play{
+    
+    width: 57px;
+    position: absolute;
+    top: 389px;
+    left: 293px;
+}
+
+.bgrund-heder h4{
+    position: absolute;
+    top: 406px;
+    left: 359px;
+    color: #8884a7;
+    font-size: 23px;
+}
+
+.for{
+    width: 426px;
+    float: right;
+
+}
+
+.border{
+    
+    box-shadow: 21px -3px 50px #58577a91;
+    position: absolute;
+    box-shadow: tan;
+    left: 581px;
+    top: 700px;
+}
+    
+
+
+
+
+.bg h1{
+    position: absolute;
+    font-size: 51px;
+    left: -219px;
+    top: 140px;
+    width: 633px;
+    color: #ffffff;
+}
+    
+
+
+
+.bg p{
+    
+    position: absolute;
+    left: -201px;
+    top: 312px;
+    font-size: 23px;
+    width: 553px;
+    text-align: center;
+    color: #ffffff
+    
+}
+
+.bg{
+    background-image: url("image/1\ \(2\).jpg");
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.719);
+    background-blend-mode: overlay;
+    background-size: cover;
+    
+    height: 632px;
+    background-size: cover;
+    
+    
+
+
+}
+
+
+
+.footer-bg{
+    background-image: url("image/footer.png");
+    height: 400px;
+    background-size: cover;
+    
+    
+}
+
+
+.postion-input{
+    position: absolute;
+    left: 1009px;
+    top: 151px;
+    
+}
+
+.postion-input input{
+    margin-bottom: 20px;
+    width: 332px;
+    height: 26px;
+    border-radius: 7px;
+    background-color: #8788d7;
+    border: white solid;
+    color: white;
+
+}
+
+
+
+
+.footer-bg h1{
+    color: white;
+    position: absolute;
+    top: 327px;
+    left: 188px;
+}
+
+
+.footer-bg p{
+    color: white;
+    position: absolute;
+    top: 389px;
+    left: 188px;
+    width: 353px;
+}
+/*ul li ul li{
+    display: none;
+    position: absolute;
+    top: 34px;
+}
+
+ul li ul li a{
+  
+    color: white;
+}
+
+
+ul li:hover ul li{
+    display: inline-block;
+    background-color: #34337f;
+    height: 50px;
+}
+*/
+.map{
+    position: absolute;
+    left: 798px;
+    top: 150px;
+    border: white solid;
+    border-radius: 20px;
+}
+
+.postion-video{
+    position: absolute;
+    left: 800px;
+    top: 60px;
+}
+
+.b-t{
+    height: 404px;
+    position: absolute;
+    top: 143px;
+    width: 1264px;
+    box-shadow: #938e97 12px 11px 28px -2px;
+}
+
+.b-t h4{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+.b-t p{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 500px;
+}
+
+
+.production{
+    width: 252px;
+    position: absolute;
+    top: 408px;
+    left: 536px;
+}
+
+.bgrund-heder h1 {
+    color: #192059;
+    font-size: 40px;
+    position: absolute;
+    top: 86px;
+    left: 96px;
+}
+
+
+
+.bgrund-heder p {
+
+    color: #424289;
+    width: 583px;
+    position: absolute;
+    top: 166px;
+    left: 96px;
+}

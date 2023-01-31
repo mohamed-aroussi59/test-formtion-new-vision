@@ -1,0 +1,8 @@
+
+
+
+.animtion {
+    position: absolute;
+    top: 226px;
+    left: 871px;
+}
