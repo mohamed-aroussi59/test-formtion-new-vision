@@ -13,3 +13,24 @@ left: 90px;
 }
 
 
+.img-des3{
+    width: 300px;
+    left: 192px;
+    margin-top: 61px;
+}
+
+.bgrund-heder #tex {
+    color: #424289;
+    width: 583px;
+    position: absolute;
+    top: 233px;
+    left: 96px;
+}
+
+.bgrund-heder #tit {
+    color: #192059;
+    font-size: 40px;
+    position: absolute;
+    top: 157px;
+    left: 96px;
+}

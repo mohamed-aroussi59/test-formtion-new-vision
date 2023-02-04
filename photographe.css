@@ -5,3 +5,180 @@
     left: 911px;
 }
 
+.bgrund-heder h1 {
+    color: #192059;
+    font-size: 40px;
+    position: absolute;
+    top: 121px;
+    left: 96px;
+}
+
+.bgrund-heder p {
+    color: #424289;
+    width: 583px;
+    position: absolute;
+    top: 185px;
+    left: 96px;
+}
+
+.img-des{
+    width: 300px;
+    left: 192px;
+}
+
+
+#size-pr1{
+    width: 200px;
+    border-radius: 119px;
+    margin-left: 217px;
+    margin-top: -136px;
+}
+
+
+#border-prs h1{
+    margin-top: -84px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 37px;
+width: 200px;
+height: 50px;
+
+}
+
+
+
+#border-prs h3{
+    margin-top: -28px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 59px;
+width: 200px;
+height: 50px;
+
+}
+
+#t p{
+    margin-top: 612px;
+    width: 518px;
+    margin-left: 54px;
+    font-size: 19px;
+    text-align: center;
+
+
+
+}
+
+
+
+#border-prs{
+    
+    width: 208px;
+    height: 324px;
+    border-radius: 10px;
+    margin-left: -1px;
+    }
+
+
+    #con-text1{
+        width: 199px;
+        margin-left: 13px;
+    }
+
+    #postion-icon{
+        margin-top: -43px;
+        margin-left: 208px;
+    }
+
+
+    #face-1{
+width: 26px;
+margin-left: 30px;
+    }
+
+    
+    #face-2{
+        width: 26px;
+        margin-left: 20px;
+    }
+
+
+    
+    #face-3{
+        width: 26px;
+        margin-left: 20px;
+
+
+    }
+
+    #social-post{
+        margin-top: 149px;
+        margin-left: 230px;
+        width: 265px;
+    }
+
+    #postion-t h3{
+        margin-left: 400px;
+        width: 450px;
+        color: #32317d;
+        
+    }
+
+    #shadow{
+        box-shadow: 2px 5px 26px 12px #d1d1d159;
+        width: 701px;
+        margin-left: 332px;
+        margin-top: 205px;
+        border-radius: 20px;
+        background-color: white;;
+       
+    }
+    
+   
+
+    #image-album img{
+        width: 358px;
+        
+        transition: 2s;
+        
+
+    }
+
+    #image-album  :hover img{
+        transform: scale(1.2);
+       
+        
+    }
+    
+    #img-t1{
+        box-shadow: 2px 5px 26px 12px #d1d1d159;
+        width: 358px;
+        border-radius: 20px;
+        background-color: white;
+        height: 520px;
+        margin-bottom: 22px;
+        overflow: hidden;
+    }
+    
+
+
+    
+
+#img-t1 h3{
+    font-size: 21px;
+    width: 298px;
+    margin-top: 74px;
+    margin-left: 12px;
+}
+
+#image-album #icon-for{
+    width: 50px;
+    border-radius: 51px;
+    margin-top: 19px;
+    margin-left: 21px;
+}
+
+#image-album h6{
+    margin-top: -39px;
+    margin-left: 81px;
+}
+
