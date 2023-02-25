@@ -538,3 +538,33 @@ ul li:hover ul li{
         left: 186px;
         border-radius: 40px;
 }
+
+#shop{
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#baground-produit{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(165, 17, 140);
+    border-radius: 20px;
+    height: 149px;
+    width: 155px;
+    margin-left: -27px;
+    margin-top: 32px;
+    display: none;
+}
+
+/*.bg{
+    background-color: #3fff05 !important;
+    height: 149px;
+    width: 155px;
+    margin-left: -27px;
+    margin-top: 32px;
+    display: block !important;
+}
+*/
+
+#tr{
+    width: 120px;margin-top ;
+}

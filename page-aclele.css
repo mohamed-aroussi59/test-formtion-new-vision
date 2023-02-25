@@ -1,0 +1,27 @@
+.bg-nav{
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#color{
+    color: rgb(255, 255, 255);
+}
+
+
+.footer-bag{
+    background-color: blueviolet;
+    height: 63px;
+    width: 1365px;
+    margin-top: 502px;
+    border-radius: 48px 48px 0px 0px;
+}
+
+.footer-bag .bi{
+    
+    margin-left: 150px;
+}

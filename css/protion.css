@@ -1,0 +1,128 @@
+.demo {
+    padding: 30px 0
+}
+
+.pricingTable {
+    text-align: center
+}
+
+body {
+    padding: 0;
+    margin: 0
+}
+
+.demo {
+    background: #B2B2B2
+}
+
+h4 {
+    color: #444
+}
+
+.pricingTable {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease 0s
+}
+
+.pricingTable:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8) inset, 0 0 10px rgba(0, 0, 0, .8)
+}
+
+.pricingTable svg {
+    display: block;
+    margin-left: -1px
+}
+
+.pricingTable .pricing-content {
+    padding: 50px 0 30px;
+    position: relative
+}
+
+.pricingTable .title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #ae003d;
+    text-transform: uppercase;
+    margin: 0 0 10px
+}
+
+.pricingTable .pricing-content ul {
+    padding: 0;
+    margin: 0 0 30px;
+    list-style: none
+}
+
+.pricingTable .pricing-content ul li {
+    font-size: 18px;
+    color: rgba(0, 0, 0, .3);
+    line-height: 40px;
+    text-transform: capitalize
+}
+
+.pricingTable .pricingTable-signup {
+    display: inline-block;
+    padding: 8px 50px;
+    background: #ae003d;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    transition: all .3s ease 0s
+}
+
+.pricingTable:hover .pricingTable-signup {
+    box-shadow: 0 0 10px #ae003d
+}
+
+.pricingTable .pricingTable-signup:hover {
+    color: #ae003d;
+    background: #fff;
+    box-shadow: 0 0 10px #ae003d, 0 0 10px #000 inset
+}
+
+.pricingTable.blue .title {
+    color: #005c99
+}
+
+.pricingTable.blue .pricingTable-signup {
+    background: #005c99
+}
+
+.pricingTable.blue:hover .pricingTable-signup {
+    box-shadow: 0 0 10px #005c99
+}
+
+.pricingTable.blue .pricingTable-signup:hover {
+    color: #005c99;
+    background: #fff;
+    box-shadow: 0 0 10px #005c99, 0 0 10px #000 inset
+}
+
+.pricingTable.red .title {
+    color: #db2c29
+}
+
+.pricingTable.red .pricingTable-signup {
+    background: #db2c29
+}
+
+.pricingTable.red:hover .pricingTable-signup {
+    box-shadow: 0 0 10px #db2c29
+}
+
+.pricingTable.red .pricingTable-signup:hover {
+    color: #db2c29;
+    background: #fff;
+    box-shadow: 0 0 10px #db2c29, 0 0 10px #000 inset
+}
+
+@media only screen and (max-width:990px) {
+    .pricingTable {
+        margin-bottom: 30px
+    }
+}

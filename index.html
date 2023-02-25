@@ -10,6 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
     <link href="home.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/protion.css">
+    <script src="js/home.js"></script>
+    <!------------------------------------>
+    
 </head>
 <body>
     <header>
@@ -33,21 +37,36 @@
                   <li class="nav-item dropdown">
                   
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="production.html">production</a></li>
+                      <li><a class="dropdown-item"  href="production.html">production</a></li>
                       <li><a class="dropdown-item" href="">photogarphy</a></li>
                       <li><a class="dropdown-item" href="">montage</a></li>
                       <li><a class="dropdown-item" href="design.html">design</a></li>
                       <li><a class="dropdown-item" href="">animation</a></li>
+                    
                     </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
+                    
                   </li>
-                 
+
+                  
+                     <li><button id="shop" onclick="cart()"  onmouseout="cartout()"><i class="bi bi-basket-fill"></i></button></li>
+                     <div id="baground-produit">
+
+                      <img  id="tr"  src="image/btn1.png">
+    
+    <img id="tr"  src="image/btn4.png">
+   
+
+                     </div>
                 </ul>
-              </div>
+                
+              
             </div>
+           
           </nav>
+         
 
 
 
@@ -69,7 +88,7 @@
 
 ---->
 <span id="login" class="btn">
-  <button id="login-btn">Login</button>
+  <button id="login-btn" onclick="window.location.href='login.html';">Login</button>
   <button id="sign-btn">Sign Up</button>
 </span>
     </header>
@@ -83,12 +102,13 @@
 <h4> Watch video</h41>
 <span>
     
-    <a href="photographe.html"><img class="photogarphy" src="image/btn1.png"></a>
+    <a  href="photographe.html"><img class="photogarphy" id="scle-formtion" onmouseenter="scle()" onmouseout="scleout()" src="image/btn1.png"></a>
     
-    <a href="montage.html"><img class="montage" src="image/btn4.png"></a>
-    <a href="design.html"><img class="design" src="image/btn5.png"></a>
-    <a href="production.html"><img class="production" src="image/btn2.png"></a>
-    <a href="animtion.html"><img class="animtion" src="image/btn3.png"></a>
+    <a href="montage.html"><img class="montage" id="scle-montage" onmouseenter="sclemont()" onmouseout="scleoutmont()" src="image/btn4.png"></a>
+    <a href="design.html"><img class="design" id="scle-design" onmouseenter="scledesig()" onmouseout="scleoutdesig()" src="image/btn5.png"></a>
+    <a href="production.html"><img class="production" id="scle-production" onmouseenter="scleprodect()" onmouseout="scleoutprodect()" src="image/btn2.png"></a>
+    <a href="animtion.html"><img class="animtion" id="scle-animtion" onmouseenter="scleanimtion()" onmouseout="scleoutanimtion()" src="image/btn3.png"></a>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </span>
 
 </section>
@@ -163,6 +183,105 @@
 </sextion>
 --->
 
+<!------------promtion  prix ------------------->
+
+
+<div class="demo">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-sm-6">
+              <div class="pricingTable">
+                  <svg x="0" y="0" viewBox="0 0 360 220">
+                      <g>
+                          <path fill="#ae003d" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                      c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                      s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                      L0.732,193.75z"></path>
+                      </g>
+                      <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="78.4489">$10</text>
+                      <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="29.0829">.99</text>
+                      <text transform="matrix(1 0 0 1 233.9629 115.5303)" fill="#fff" font-size="15.4128">/Month</text>
+                  </svg>
+                  <div class="pricing-content">
+                      <h3 class="title">Standard</h3>
+                      <ul class="pricing-content">
+                          <li><b>50GB</b> Disk Space</li>
+                          <li><b>50</b> Email Accounts</li>
+                          <li><b>50GB</b> Bandwidth</li>
+                          <li><b>10</b> Subdomains</li>
+                          <li><b>15</b> Domains</li>
+                      </ul>
+                      <a href="#" class="pricingTable-signup">Subscribe Now</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+              <div class="pricingTable blue">
+                  <svg x="0" y="0" viewBox="0 0 360 220">
+                      <g>
+                          <path fill="#005c99" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                      c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                      s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                      L0.732,193.75z"></path>
+                      </g>
+                      <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="78.4489">$20</text>
+                      <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="29.0829">.99</text>
+                      <text transform="matrix(1 0 0 1 233.9629 115.5303)" fill="#fff" font-size="15.4128">/Month</text>
+                  </svg>
+                  <div class="pricing-content">
+                      <h3 class="title">Business</h3>
+                      <ul class="pricing-content">
+                          <li><b>60GB</b> Disk Space</li>
+                          <li><b>60</b> Email Accounts</li>
+                          <li><b>60GB</b> Bandwidth</li>
+                          <li><b>15</b> Subdomains</li>
+                          <li><b>20</b> Domains</li>
+                      </ul>
+                      <a href="#" class="pricingTable-signup">Subscribe Now</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+              <div class="pricingTable red">
+                  <svg x="0" y="0" viewBox="0 0 360 220">
+                      <g>
+                          <path fill="#db2c29" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                  c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                  s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                  L0.732,193.75z"></path>
+                      </g>
+                      <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="78.4489">$30</text>
+                      <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="29.0829">.99</text>
+                      <text transform="matrix(1 0 0 1 233.9629 115.5303)" fill="#fff" font-size="15.4128">/Month</text>
+                  </svg>
+                  <div class="pricing-content">
+                      <h3 class="title">Premium</h3>
+                      <ul class="pricing-content">
+                          <li><b>70GB</b> Disk Space</li>
+                          <li><b>70</b> Email Accounts</li>
+                          <li><b>70GB</b> Bandwidth</li>
+                          <li><b>20</b> Subdomains</li>
+                          <li><b>25</b> Domains</li>
+                      </ul>
+                      <a href="#" class="pricingTable-signup">Subscribe Now</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!------------promtion prix finich------------------->
+<section>
+
+
+
+
+
+
 <section>
 <div class="container">
 
@@ -195,7 +314,6 @@ elementum. Vestibulum euismod accumsan.
 
 
 
-<section>
 <div class="container">
 <div id="row-posti" class="row">
 

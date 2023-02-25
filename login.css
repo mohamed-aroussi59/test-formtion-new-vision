@@ -1,68 +1,66 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    transition: 3s;
-  }
-  
-  .login-container {
-    margin-top: 10%;
-    border: 1px solid #CCD1D1;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 50%;
-  }
-  
-  .ads {
-    background-color: #A569BD;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .ads h1 {
-    margin-top: 20%;
-  }
-  
-  #fl {
-    font-weight: 600;
-  }
-  
-  #sl {
-    font-weight: 100 !important;
-  }
-  
-  .profile-img {
-    text-align: center;
-  }
-  
-  .profile-img img {
-    border-radius: 50%;
-    /* animation: mymove 2s infinite; */
-  }
-  
-  @keyframes mymove {
-    from {border: 1px solid #F2F3F4;}
-    to {border: 8px solid #F2F3F4;}
-  }
-  
-  .login-form {
-    padding: 15px;
-  }
-  
-  .login-form h3 {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  
-  .form-control {
-    font-size: 14px;
-  }
-  
-  .forget-password a {
-    font-weight: 500;
+
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color: #f8fafb;
+}
+#with-photo{
+    width: 600px;
+    margin-top: 80px;
+   
+    
+}
+
+#postion{
+    margin-top: 80px;
+}
+
+.social-login a {
     text-decoration: none;
-    font-size: 14px;
-  }
-  
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block; }
+    .social-login a span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .social-login a:hover {
+      color: #fff; }
+    .social-login a.facebook {
+      background: #3b5998; }
+      .social-login a.facebook:hover {
+        background: #344e86; }
+    .social-login a.twitter {
+      background: #1da1f2; }
+      .social-login a.twitter:hover {
+        background: #0d95e8; }
+    .social-login a.google {
+      background: #ea4335; }
+      .social-login a.google:hover {
+        background: #e82e1e; }
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    height: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+}
+
