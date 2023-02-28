@@ -20,14 +20,14 @@
                     <h3>Sign In</h3>
                 <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
                 </div>
-                <form action="#" method="post">
+                <form action="#" method="post" name="te">
                 <div class="form-group first">
                 <label for="username">Username</label>
-                <input type="text" class="form-control" id="username">
+                <input type="text" onfocus="signame()" name="se" id="username">
                 </div>
                 <div class="form-group last mb-4">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password">
+                <input type="password" onfocus="sigpass()" name="fe" id="password">
                 </div>
                 <div class="d-flex mb-5 align-items-center">
                 <label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
@@ -63,6 +63,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-
+<script src="js/login.js"></script>
 </body>
 </html>

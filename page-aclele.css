@@ -1,16 +1,223 @@
-.bg-nav{
-    background-color: blueviolet;
+body{
+    background-color: #181911;
+}
+
+
+#bg-nav{
+    background-color: #1a1a1a;
     border-radius: 15px;
+    border: #ffffff2e solid 3px;
+    width: 1350px;
+    height: 70px;
 }
 
-*{
-    padding: 0px;
-    margin: 0px;
+
+#icon-postion1{
+    left: 21px;
+    top: 16px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
 }
 
-#color{
-    color: rgb(255, 255, 255);
+
+
+.postion-icon1{
+    top: 4px;
+    position: absolute;
+    left: 1267px;
+    
 }
+
+
+#icon-postion2{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 19px;
+    top: 15px;
+}
+
+.postion-icon2{
+    position: absolute;
+    left: 1173px;
+    top: 5px;
+}
+
+#icon-postion3{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+   
+
+
+#img4{
+
+margin-top: -106px;
+margin-left: 13px;
+}
+
+
+.postion-icon3{
+    position: absolute;
+    margin-left: 1086px;
+    top: 14px;
+    
+}
+
+#btn1{
+    width: 46px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+
+#btn2{
+    width: 45px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+#btn3{
+    width: 45px;
+    
+}
+
+
+#accelle{
+    color: white;
+    position: absolute;
+    left: 559px;
+    top: 23px;
+}
+
+#size-icon{
+    font-size: 29px;
+    position: absolute;
+    top: -8px;
+}
+
+#title{
+    margin-left: 40px;
+}
+
+
+#recherch{
+    background-color: #3A3B3C;
+    border-radius: 50px;
+    border: none;
+    margin-top: -52px;
+    position: absolute;
+    margin-left: 258px;
+    width: 200px;
+    height: 30px;
+}
+
+
+
+#icon-rechech{
+    color: white;
+    margin-left: 269px;
+    margin-top: -48px;
+    position: absolute;
+}
+
+
+.baground-menu{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin-top: 51px;
+    top: 21px;
+    margin-left: 1116px;
+    border-radius: 20px 0px 20px 20px;
+}
+
+#menuafiche{
+    display: none;
+}
+
+
+#size-cover{
+    width: 500px;
+    margin-left: 450px;
+}
+
+
+#bg-statut{
+    background-color: rgb(44 44 44);
+    width: 800px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 19px;
+}
+
+
+#statut-ecrire{
+    width: 600px;
+    height: 40px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+
+
+
+#parcourir h5{
+   color: white;
+  
+}
+
+#img3{
+    margin-left: 558px;
+    margin-top: -75px;
+}
+
+#text3{
+    margin-left: 88px;
+    margin-top: -55px;
+}
+
+#img2{
+    margin-left: 22px;
+    margin-top: 38px;
+
+}
+
+#text2{
+    margin-top: -29px;
+    margin-left: 598px;
+}
+
+#img1{
+    margin-left: 300px;
+    margin-top: -64px;
+}
+
+#text1{
+    margin-top: -57px;
+    margin-left: 351px;
+}
+
+
+#logo{
+    width: 140px;
+    margin-left: 50px;
+    margin-top: -90px;
+}
+
+
+
+
+
+
+
 
 
 .footer-bag{
